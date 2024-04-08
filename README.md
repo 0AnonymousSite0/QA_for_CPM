@@ -26,7 +26,7 @@ The table below shows all supplemental materials. All sheets in Tables S1, S2, a
 
 All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
 
-# 3. LLM Leaderboard for CCLR QA
+# 3. LLM Leaderboard for CPM QA
 
 The test results of different large language models on the QA dataset for Chinese Construction Project Management are shown below. Welcome global scholars to test their LLM works on CPM-QA, please see the following specification of reusing the QA dataset.
 
