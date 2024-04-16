@@ -3,7 +3,7 @@
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
 # 0. Videos of running the LLMs before and after integrating the multiple CPM-KG
-![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/SrCTb8xwA6KsFau.gif)
+![GIF for running video of original LLMs.gif](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20original%20LLMs.gif)
 ↑↑↑Multiple original LLMs simultaneously answering the CPM-related questions
 
 
