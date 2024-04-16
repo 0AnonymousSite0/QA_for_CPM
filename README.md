@@ -6,7 +6,7 @@
 
 ↑↑↑Multiple original LLMs simultaneously answering the CPM-related questions
 
-![GIF for running video of LLMs with  CPM-KG.gif](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
+![GIF for running video of LLMs with CPM-KG](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
 ↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CPM-related questions
 
 
