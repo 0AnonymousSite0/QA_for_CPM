@@ -6,7 +6,7 @@
 ![GIF for running video of original LLMs.gif](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20original%20LLMs.gif)
 ↑↑↑Multiple original LLMs simultaneously answering the CPM-related questions
 
-
+![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/01/22/9gDGrmlRIMBxqc4.gif)
 ↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CPM-related questions
 
 
