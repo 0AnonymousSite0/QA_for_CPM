@@ -61,7 +61,7 @@ The CPM-KG is available through this link (XX).
 The data layer development in the CPM-KG includes determining the three-tier knowledge field framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
 
 
-
+![png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Fig.%20S1%2043%20triples%20of%20%5Bknowledge%20field%2C%20has%20subfield%20of%2C%20knowledge%20field%5D.png)
 ↑↑↑43 triples of [knowledge field, has subfield of, knowledge field]
 
 
