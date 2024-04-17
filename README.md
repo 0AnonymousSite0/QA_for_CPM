@@ -9,7 +9,7 @@
 
 ![GIF for running video of LLMs with CPM-KG](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
 
-↑↑↑Multiple LLMs with knowledge graph simultaneously answering the CPM-related questions
+↑↑↑Multiple LLMs with CPM-KG simultaneously answering the CPM-related questions
 
 
 # 1. General introduction of this repository
@@ -79,7 +79,7 @@ Developing the instance layer of the CPM-KG involves building the three-level ar
 The CPM-QA test dataset containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
 
 
-![CPM-QA dataset in huggingface.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20dataset%20in%20huggingface.png)
+![CPM-QA dataset in huggingface.png](https://s2.loli.net/2024/04/17/Ye6Plo219UFWHmu.png)
 ↑↑↑The CPM-QA dataset in huggingface
 
 
