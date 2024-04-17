@@ -32,24 +32,24 @@ All supplemental materials are provided in Github repository (https://huggingfac
 
 The test results of different large language models on the QA dataset for Chinese Construction Project Management are shown below. Welcome global scholars to test their LLM works on CPM-QA, please see the following specification of reusing the QA dataset.
 
-| Large Language Model | Publishing Institution | Average Accuracy Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-| ERNIE-Bot 4.0 with CPM-KG | Baidu&The authors | 0.682 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
-| GPT-4-turobo with CPM-KG | OpenAI&The authors | 0.643 | 0.783 | 0.718 | 0.762 | 0.768 | 0.724 | 0.724 | 0.731 | 0.788 | 2 |
-| GPT-4 with CPM-KG | OpenAI&The authors | 0.628 | 0.719 | 0.734 | 0.661 | 0.660 | 0.757 | 0.681 | 0.664 | 0.689 | 3 |
-| ERNIE-Bot 4.0 | Baidu | 0.602 | 0.602 | 0.490 | 0.556 | 0.536 | 0.570 | 0.519 | 0.514 | 0.566 | 4 |
-| ERNIE-Bot with CPM-KG | Baidu&The authors | 0.566 | 0.532 | 0.503 | 0.527 | 0.472 | 0.626 | 0.522 | 0.540 | 0.467 | 5 |
-| GPT-4-turobo | OpenAI | 0.494 | 0.497 | 0.444 | 0.510 | 0.421 | 0.540 | 0.596 | 0.543 | 0.444 | 6 |
-| GPT-3.5-turbo with CPM-KG | OpenAI&The authors | 0.472 | 0.507 | 0.521 | 0.470 | 0.478 | 0.582 | 0.516 | 0.510 | 0.516 | 7 |
-| ERNIE-Bot | Baidu | 0.471 | 0.474 | 0.486 | 0.494 | 0.469 | 0.570 | 0.529 | 0.514 | 0.470 | 8 |
-| GPT-4 | OpenAI | 0.470 | 0.471 | 0.469 | 0.488 | 0.464 | 0.517 | 0.507 | 0.528 | 0.462 | 9 |
-| ChatGLM3-6B with CPM-KG | Tsinghua & Zhipu.AI | 0.418 | 0.454 | 0.412 | 0.477 | 0.409 | 0.469 | 0.444 | 0.494 | 0.420 | 10 |
-| Qianfan-Chinese-Llama-2-7B with CPM-KG | Baidu&The authors | 0.367 | 0.452 | 0.389 | 0.415 | 0.356 | 0.412 | 0.389 | 0.416 | 0.399 | 11 |
-| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.351 | 0.421 | 0.377 | 0.364 | 0.359 | 0.422 | 0.374 | 0.411 | 0.358 | 12 |
-| GPT-3.5-turbo | OpenAI | 0.342 | 0.422 | 0.317 | 0.368 | 0.322 | 0.438 | 0.332 | 0.405 | 0.333 | 13 |
-| Llama-2-70B-Chat with CPM-KG | MetaAI&The authors | 0.331 | 0.335 | 0.369 | 0.323 | 0.328 | 0.414 | 0.354 | 0.335 | 0.332 | 14 |
-| Llama-2-70B-Chat | MetaAI | 0.249 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
-| Qianfan-Chinese-Llama-2-7B | Baidu | 0.240 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
+| Large Language Model | Publishing Institution | Accuracy rate of SAMCQs | Accuracy rate of MAMCQs | Accuracy rate of Text-only Questions | Accuracy rate of Image-embedded Questions | Average Accuracy Rate | Ranking |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| ERNIE-Bot 4.0 with CPM-KG | Baidu&The authors | 0.773 | 0.568 | 0.701 | 0.224 | 0.682 | 1 |
+| GPT-4-turobo with CPM-KG | OpenAI&The authors | 0.723 | 0.543 | 0.661 | 0.250 | 0.643 | 2 |
+| GPT-4 with CPM-KG | OpenAI&The authors | 0.686 | 0.550 | 0.646 | 0.218 | 0.628 | 3 |
+| ERNIE-Bot 4.0 | Baidu | 0.726 | 0.442 | 0.621 | 0.166 | 0.602 | 4 |
+| ERNIE-Bot with CPM-KG | Baidu&The authors | 0.727 | 0.361 | 0.578 | 0.235 | 0.566 | 5 |
+| GPT-4-turobo | OpenAI | 0.589 | 0.372 | 0.503 | 0.235 | 0.494 | 6 |
+| GPT-3.5-turbo with CPM-KG | OpenAI&The authors | 0.538 | 0.394 | 0.480 | 0.244 | 0.472 | 7 |
+| ERNIE-Bot | Baidu | 0.656 | 0.234 | 0.481 | 0.218 | 0.471 | 8 |
+| GPT-4 | OpenAI | 0.591 | 0.313 | 0.482 | 0.198 | 0.470 | 9 |
+| ChatGLM3-6B with CPM-KG | Tsinghua & Zhipu.AI | 0.497 | 0.319 | 0.424 | 0.238 | 0.418 | 10 |
+| Qianfan-Chinese-Llama-2-7B with CPM-KG | Baidu&The authors | 0.464 | 0.238 | 0.369 | 0.221 | 0.367 | 11 |
+| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.419 | 0.262 | 0.355 | 0.203 | 0.351 | 12 |
+| GPT-3.5-turbo | OpenAI | 0.427 | 0.237 | 0.346 | 0.174 | 0.342 | 13 |
+| Llama-2-70B-Chat with CPM-KG | MetaAI&The authors | 0.443 | 0.189 | 0.328 | 0.323 | 0.331 | 14 |
+| Llama-2-70B-Chat | MetaAI | 0.335 | 0.137 | 0.247 | 0.235 | 0.249 | 15 |
+| Qianfan-Chinese-Llama-2-7B | Baidu | 0.314 | 0.140 | 0.237 | 0.203 | 0.240 | 16 |
 
 # 4. Reuse of the multimodal CPM-KG 
 
@@ -59,32 +59,32 @@ The test results of different large language models on the QA dataset for Chines
 
 The CPM-KG is available through this link (XX).
 
-## 4.2 Data layer details of CPM-KG
-The data layer development in the CPM-KG includes determining the three-tier knowledge field framework, collecting and iteratively refining the laws and regulations, and dividing each law or regulation into multiple clauses.
+## 4.2 Instance layer details of CPM-KG
+Developing the instance layer of the CPM-KG involves building the three-level architecture of CPM knowledge fields, collecting CPM-related documents, and processing multimodal document content with text and image data.
 
 
-
+![Fig. S1 43 triples of knowledge field, has subfield of, knowledge field.png](https://s2.loli.net/2024/04/17/ELj8foRpTdUOSkB.png)
 ↑↑↑43 triples of [knowledge field, has subfield of, knowledge field]
 
 
-
+![Fig. S2 278 triples of tertiary knowledge field, involves, document.png](https://s2.loli.net/2024/04/17/1luyTK7th2ALdgH.png)
 ↑↑↑278 triples of [tertiary knowledge field, involves, document]
 
 
-
+![Fig. S3](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Fig.%20S3%201%2C375%20triples%20of%20%5Bdocument%2C%20contains%2C%20document%20content%5D.png)
 ↑↑↑1,375 triples of [document, contains, document content]
 
 # 5. Reuse of the CPM-QA test dataset
 
-Our dataset is specifically tailored to the CPM field and encompasses 2,435 questions.
+The CPM-QA test dataset containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- and multiple-answer questions, and questions with or without images.
 
 
-
+![CPM-QA dataset in huggingface.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20dataset%20in%20huggingface.png)
 ↑↑↑The CPM-QA dataset in huggingface
 
 
-
-↑↑↑The examples of one single-answer and multiple-answer question in the CPM-QA dataset
+![annotations of CPM questions](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Preview%20of%20the%20CPM-QA%20test%20dataset.png)
+↑↑↑The annotations of CPM questions’ characteristics
 
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM).
 
@@ -122,7 +122,7 @@ beautifulsoup4==4.12.2
 
 ......
 
-Please refer to the supplementary materials for the complete requirement file.(https://github.com/0AnonymousSite0/QA_for_CPM/XXX)
+Please refer to the supplementary materials for the complete requirement file.(https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Codes/Codes%20for%20large%20language%20models%20integrating%20CPM-KG/requirements.txt)
 
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
@@ -131,9 +131,9 @@ Before submitting these codes to Github, all of them have been tested to be well
 Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 
-
+![Codes for original LLMs.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20original%20LLMs.png)
 ↑↑↑Codes for testing original large language models
 
 
-
+![Codes for LLMs with CPM-KG.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20LLMs%20with%20CPM-KG.png)
 ↑↑↑Codes for testing large language models integrating CPM-KG
