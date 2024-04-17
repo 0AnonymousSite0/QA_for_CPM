@@ -35,11 +35,11 @@ The test results of different large language models on the QA dataset for Chines
 | Large Language Model | Publishing Institution | Accuracy rate of SAMCQs | Accuracy rate of MAMCQs | Accuracy rate of Text-only Questions | Accuracy rate of Image-embedded Questions | Average Accuracy Rate | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ERNIE-Bot 4.0 with CPM-KG | Baidu&The authors | 0.773 | 0.568 | 0.701 | 0.224 | 0.682 | 1 |
-| GPT-4-turobo with CPM-KG | OpenAI&The authors | 0.723 | 0.543 | 0.661 | 0.250 | 0.643 | 2 |
+| GPT-4-turbo with CPM-KG | OpenAI&The authors | 0.723 | 0.543 | 0.661 | 0.250 | 0.643 | 2 |
 | GPT-4 with CPM-KG | OpenAI&The authors | 0.686 | 0.550 | 0.646 | 0.218 | 0.628 | 3 |
 | ERNIE-Bot 4.0 | Baidu | 0.726 | 0.442 | 0.621 | 0.166 | 0.602 | 4 |
 | ERNIE-Bot with CPM-KG | Baidu&The authors | 0.727 | 0.361 | 0.578 | 0.235 | 0.566 | 5 |
-| GPT-4-turobo | OpenAI | 0.589 | 0.372 | 0.503 | 0.235 | 0.494 | 6 |
+| GPT-4-turbo | OpenAI | 0.589 | 0.372 | 0.503 | 0.235 | 0.494 | 6 |
 | GPT-3.5-turbo with CPM-KG | OpenAI&The authors | 0.538 | 0.394 | 0.480 | 0.244 | 0.472 | 7 |
 | ERNIE-Bot | Baidu | 0.656 | 0.234 | 0.481 | 0.218 | 0.471 | 8 |
 | GPT-4 | OpenAI | 0.591 | 0.313 | 0.482 | 0.198 | 0.470 | 9 |
