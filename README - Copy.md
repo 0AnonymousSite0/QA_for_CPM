@@ -69,7 +69,7 @@ The data layer development in the CPM-KG includes determining the three-tier kno
 ↑↑↑278 triples of [tertiary knowledge field, involves, document]
 
 
-
+![Fig. S3](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Fig.%20S3%201%2C375%20triples%20of%20%5Bdocument%2C%20contains%2C%20document%20content%5D.png)
 ↑↑↑1,375 triples of [document, contains, document content]
 
 # 5. Reuse of the CPM-QA test dataset
