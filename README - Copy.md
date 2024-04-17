@@ -22,7 +22,7 @@
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, and S3 are arranged in the order shown in this table.
 
-
+![Inventory of supplemental materials.png](https://s2.loli.net/2024/04/17/gsuFIBNJh1rqcUQ.png)
 
 All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
 
