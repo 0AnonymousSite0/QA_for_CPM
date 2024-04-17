@@ -28,30 +28,30 @@ The table below shows all supplemental materials. All sheets in Tables S1, S2, a
 
 All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
 
-# 3. LLM Leaderboard for CPM QA
+# 3. LLM Leaderboard for CPM-QA
 
 The test results of different large language models on the QA dataset for Chinese Construction Project Management are shown below. Welcome global scholars to test their LLM works on CPM-QA, please see the following specification of reusing the QA dataset.
 
-| Large Language Model | Publishing Institution | Overall Scoring Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
+| Large Language Model | Publishing Institution | Average Accuracy Rate | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-| ERNIE-Bot 4.0 with knowledge graph | Baidu&The authors | 0.822 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
-| ERNIE-Bot 4.0 | Baidu | 0.757 | 0.783 | 0.718 | 0.762 | 0.768 | 0.724 | 0.724 | 0.731 | 0.788 | 2 |
-| GPT-4 with knowledge graph | OpenAI&The authors | 0.666 | 0.719 | 0.734 | 0.661 | 0.660 | 0.757 | 0.681 | 0.664 | 0.689 | 3 |
-| GPT-4 | OpenAI | 0.532 | 0.602 | 0.490 | 0.556 | 0.536 | 0.570 | 0.519 | 0.514 | 0.566 | 4 |
-| GPT-3.5-turbo with knowledge graph | OpenAI&The authors | 0.504 | 0.532 | 0.503 | 0.527 | 0.472 | 0.626 | 0.522 | 0.540 | 0.467 | 5 |
-| ChatGLM3-6B with knowledge graph | Tsinghua & Zhipu.AI | 0.483 | 0.497 | 0.444 | 0.510 | 0.421 | 0.540 | 0.596 | 0.543 | 0.444 | 6 |
-| Text-davinci-003 with knowledge graph | OpenAI&The authors | 0.482 | 0.507 | 0.521 | 0.470 | 0.478 | 0.582 | 0.516 | 0.510 | 0.516 | 7 |
-| Qianfan-Chinese-Llama-2-7B with knowledge graph| Baidu&The authors | 0.474 | 0.474 | 0.486 | 0.494 | 0.469 | 0.570 | 0.529 | 0.514 | 0.470 | 8 |
-| ChatGLM2-6B with knowledge graph | Tsinghua & Zhipu.AI | 0.472 | 0.471 | 0.469 | 0.488 | 0.464 | 0.517 | 0.507 | 0.528 | 0.462 | 9 |
-| ChatGLM2-6B | Tsinghua & Zhipu.AI | 0.430 | 0.454 | 0.412 | 0.477 | 0.409 | 0.469 | 0.444 | 0.494 | 0.420 | 10 |
-| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.399 | 0.452 | 0.389 | 0.415 | 0.356 | 0.412 | 0.389 | 0.416 | 0.399 | 11 |
-| Qianfan-Chinese-Llama-2-7B | Baidu | 0.373 | 0.421 | 0.377 | 0.364 | 0.359 | 0.422 | 0.374 | 0.411 | 0.358 | 12 |
-| GPT-3.5-turbo | OpenAI | 0.348 | 0.422 | 0.317 | 0.368 | 0.322 | 0.438 | 0.332 | 0.405 | 0.333 | 13 |
-| Llama-2-70b with knowledge graph | MetaAI&The authors | 0.377 | 0.335 | 0.369 | 0.323 | 0.328 | 0.414 | 0.354 | 0.335 | 0.332 | 14 |
-| Text-davinci-003 | OpenAI | 0.328 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
-| Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
+| ERNIE-Bot 4.0 with CPM-KG | Baidu&The authors | 0.682 | 0.842 | 0.826 | 0.830 | 0.801 | 0.853 | 0.842 | 0.800 | 0.862 | 1 |
+| GPT-4-turobo with CPM-KG | OpenAI&The authors | 0.643 | 0.783 | 0.718 | 0.762 | 0.768 | 0.724 | 0.724 | 0.731 | 0.788 | 2 |
+| GPT-4 with CPM-KG | OpenAI&The authors | 0.628 | 0.719 | 0.734 | 0.661 | 0.660 | 0.757 | 0.681 | 0.664 | 0.689 | 3 |
+| ERNIE-Bot 4.0 | Baidu | 0.602 | 0.602 | 0.490 | 0.556 | 0.536 | 0.570 | 0.519 | 0.514 | 0.566 | 4 |
+| ERNIE-Bot with CPM-KG | Baidu&The authors | 0.566 | 0.532 | 0.503 | 0.527 | 0.472 | 0.626 | 0.522 | 0.540 | 0.467 | 5 |
+| GPT-4-turobo | OpenAI | 0.494 | 0.497 | 0.444 | 0.510 | 0.421 | 0.540 | 0.596 | 0.543 | 0.444 | 6 |
+| GPT-3.5-turbo with CPM-KG | OpenAI&The authors | 0.472 | 0.507 | 0.521 | 0.470 | 0.478 | 0.582 | 0.516 | 0.510 | 0.516 | 7 |
+| ERNIE-Bot | Baidu | 0.471 | 0.474 | 0.486 | 0.494 | 0.469 | 0.570 | 0.529 | 0.514 | 0.470 | 8 |
+| GPT-4 | OpenAI | 0.470 | 0.471 | 0.469 | 0.488 | 0.464 | 0.517 | 0.507 | 0.528 | 0.462 | 9 |
+| ChatGLM3-6B with CPM-KG | Tsinghua & Zhipu.AI | 0.418 | 0.454 | 0.412 | 0.477 | 0.409 | 0.469 | 0.444 | 0.494 | 0.420 | 10 |
+| Qianfan-Chinese-Llama-2-7B with CPM-KG | Baidu&The authors | 0.367 | 0.452 | 0.389 | 0.415 | 0.356 | 0.412 | 0.389 | 0.416 | 0.399 | 11 |
+| ChatGLM3-6B | Tsinghua & Zhipu.AI | 0.351 | 0.421 | 0.377 | 0.364 | 0.359 | 0.422 | 0.374 | 0.411 | 0.358 | 12 |
+| GPT-3.5-turbo | OpenAI | 0.342 | 0.422 | 0.317 | 0.368 | 0.322 | 0.438 | 0.332 | 0.405 | 0.333 | 13 |
+| Llama-2-70B-Chat with CPM-KG | MetaAI&The authors | 0.331 | 0.335 | 0.369 | 0.323 | 0.328 | 0.414 | 0.354 | 0.335 | 0.332 | 14 |
+| Llama-2-70B-Chat | MetaAI | 0.249 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
+| Qianfan-Chinese-Llama-2-7B | Baidu | 0.240 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
 
-# 4. Reuse of the multiple CPM-KG 
+# 4. Reuse of the multimodal CPM-KG 
 
 ## 4.1 Three optional versions of CPM-KG
 
