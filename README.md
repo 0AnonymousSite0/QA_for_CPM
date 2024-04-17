@@ -83,7 +83,7 @@ The CPM-QA test dataset containing 2,435 questions is manually tagged with four 
 ↑↑↑The CPM-QA dataset in huggingface
 
 
-![annotations of CPM questions](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Preview%20of%20the%20CPM-QA%20test%20dataset.png)
+![annotations of CPM questions](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/The%20annotations%20of%20CPM%20questions%E2%80%99%20characteristics.png)
 ↑↑↑The annotations of CPM questions’ characteristics
 
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM).
