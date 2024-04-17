@@ -3,10 +3,10 @@
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
 # 0. Videos of running the LLMs before and after integrating the multiple CPM-KG
-![GIF for running video of LLMs with CPM-KG.gif](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
+
 ↑↑↑Multiple original LLMs simultaneously answering the CPM-related questions
 
-![GIF for running video of LLMs with CPM-KG.gif](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
+
 ↑↑↑Multiple LLMs with CPM-KG simultaneously answering the CPM-related questions
 
 
@@ -49,7 +49,7 @@ The test results of different large language models on the QA dataset for Chines
 | Text-davinci-003 | OpenAI | 0.328 | 0.351 | 0.318 | 0.343 | 0.334 | 0.382 | 0.343 | 0.361 | 0.341 | 15 |
 | Llama-2-70b | MetaAI | 0.284 | 0.284 | 0.338 | 0.255 | 0.316 | 0.313 | 0.291 | 0.299 | 0.293 | 16 |
 
-# 4. Reuse of the multiple CPM-KG 
+# 4. Reuse of the multimodal CPM-KG 
 
 ## 4.1 Three optional versions of CPM-KG
 
@@ -65,7 +65,7 @@ The data layer development in the CPM-KG includes determining the three-tier kno
 ↑↑↑43 triples of [knowledge field, has subfield of, knowledge field]
 
 
-
+![Fig. S2 278 triples of tertiary knowledge field, involves, document.png](https://s2.loli.net/2024/04/17/1luyTK7th2ALdgH.png)
 ↑↑↑278 triples of [tertiary knowledge field, involves, document]
 
 
