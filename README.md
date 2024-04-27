@@ -1,15 +1,15 @@
-# Augmenting large language models with domain-specific multimodal knowledge graph for question-answering in construction project management
+# Augmenting general-purpose large-language models with domain-specific multimodal knowledge graph for question-answering in construction project management 
 
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
-# 0. Videos of running the LLMs before and after integrating the multimodal CPM-KG
+# 0. Videos of running the GLMs before and after integrating the multimodal CPM-KG
 ![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/04/17/o1Jf4v7ItKE3muZ.gif)
 
-↑↑↑Multiple original LLMs simultaneously answering the CPM-related questions
+↑↑↑Multiple original GLMs simultaneously answering the CPM-related questions
 
 ![GIF for running video of LLMs with CPM-KG](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
 
-↑↑↑Multiple LLMs with CPM-KG simultaneously answering the CPM-related questions
+↑↑↑Multiple GLMs with CPM-KG simultaneously answering the CPM-related questions
 
 
 # 1. General introduction of this repository
@@ -26,13 +26,13 @@ The table below shows all supplemental materials. All sheets in Tables S1, S2, a
 
 ![supplemental materials](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials.png)
 
-All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the  CCLR QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
+All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the CPM-QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
 
-# 3. LLM Leaderboard for CPM-QA
+# 3. GLM Leaderboard for CPM-QA
 
-The test results of different large language models on the QA dataset for Chinese Construction Project Management are shown below. Welcome global scholars to test their LLM works on CPM-QA, please see the following specification of reusing the QA dataset.
+The test results of different GLMs on the QA dataset for Chinese Construction Project Management are shown below. Welcome global scholars to test their GLM works on CPM-QA, please see the following specification of reusing the QA dataset.
 
-| Large Language Model | Publishing Institution | Accuracy rate of SAMCQs | Accuracy rate of MAMCQs | Accuracy rate of Text-only Questions | Accuracy rate of Image-embedded Questions | Average Accuracy Rate | Ranking |
+| General-purpose large-language models | Publishing institution | Accuracy rate of SAMCQs | Accuracy rate of MAMCQs | Accuracy rate of text-only questions | Accuracy rate of image-embedded questions | Average accuracy rate | Ranking |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | ERNIE-Bot 4.0 with CPM-KG | Baidu&The authors | 0.773 | 0.568 | 0.701 | 0.224 | 0.682 | 1 |
 | GPT-4-turbo with CPM-KG | OpenAI&The authors | 0.723 | 0.543 | 0.661 | 0.250 | 0.643 | 2 |
@@ -126,14 +126,14 @@ Please refer to the supplementary materials for the complete requirement file.(h
 
 Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
-## 6.2 Codes for testing the LLMs
+## 6.2 Codes for testing the GLMs
 
-Closed-source LLMs are API-only, while open-source LLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source LLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
+Closed-source GLMs are API-only, while open-source GLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source GLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 
 ![Codes for original LLMs.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20original%20LLMs.png)
-↑↑↑Codes for testing original large language models
+↑↑↑Codes for testing original GLMs
 
 
 ![Codes for LLMs with CPM-KG.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20LLMs%20with%20CPM-KG.png)
-↑↑↑Codes for testing large language models integrating CPM-KG
+↑↑↑Codes for testing GLMs integrating CPM-KG
