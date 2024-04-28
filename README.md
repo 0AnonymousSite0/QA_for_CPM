@@ -3,11 +3,11 @@
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
 # 0. Videos of running the GLMs before and after integrating the multimodal CPM-KG
-![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/04/17/o1Jf4v7ItKE3muZ.gif)
+![GIF for running video of original GLMs.gif](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20original%20GLMs.gif)
 
 ↑↑↑Multiple original GLMs simultaneously answering the CPM-related questions
 
-![GIF for running video of LLMs with CPM-KG](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
+![GIF for running video of GLMs with CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20GLMs%20with%20%20CPM-KG.gif)
 
 ↑↑↑Multiple GLMs with CPM-KG simultaneously answering the CPM-related questions
 
