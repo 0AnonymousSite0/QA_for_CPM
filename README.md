@@ -74,9 +74,9 @@ Developing the instance layer of the CPM-KG involves building the three-level ar
 ![Figure S3](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S3%201%2C375%20triples%20of%20%5Bdocument%2C%20contains%2C%20document%20content%5D.png)
 ↑↑↑1,375 triples of [document, contains, document content]
 
-# 5. Reuse of the CPM-QA test dataset
+# 5. Reuse of the CPM-QA testing set
 
-The CPM-QA test dataset containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
+The CPM-QA testing set containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
 
 
 ![CPM-QA dataset in huggingface](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20dataset%20in%20huggingface.png)
