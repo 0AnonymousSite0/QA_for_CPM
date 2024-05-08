@@ -3,11 +3,11 @@
 ## !!! As the paper is under review, all materials in this repository currently are not allowed to be re-used by anyone until this announcement is deleted.
 
 # 0. Videos of running the GLMs before and after integrating the multimodal CPM-KG
-![GIF for running video of original LLMs.gif](https://s2.loli.net/2024/04/17/o1Jf4v7ItKE3muZ.gif)
+![GIF for running video of original GLMs.gif](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20original%20GLMs.gif)
 
 ↑↑↑Multiple original GLMs simultaneously answering the CPM-related questions
 
-![GIF for running video of LLMs with CPM-KG](https://s2.loli.net/2024/04/16/WTyF9DnsqlQKCNH.gif)
+![GIF for running video of GLMs with CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20GLMs%20with%20%20CPM-KG.gif)
 
 ↑↑↑Multiple GLMs with CPM-KG simultaneously answering the CPM-related questions
 
@@ -55,40 +55,40 @@ The test results of different GLMs on the QA dataset for Chinese Construction Pr
 
 ## 4.1 Three optional versions of CPM-KG
 
+![Three optional versions of CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Three%20optional%20versions%20of%20CPM-KG.png)
 
-
-The CPM-KG is available through this link (XX).
+The CPM-KG is available through this link (https://drive.google.com/drive/folders/1-Ok_qjl5ADD8nlCSyEghupGqBz3TIk1W?usp=sharing).
 
 ## 4.2 Instance layer details of CPM-KG
 Developing the instance layer of the CPM-KG involves building the three-level architecture of CPM knowledge fields, collecting CPM-related documents, and processing multimodal document content with text and image data.
 
 
-![Fig. S1 43 triples of knowledge field, has subfield of, knowledge field.png](https://s2.loli.net/2024/04/17/ELj8foRpTdUOSkB.png)
+![Figure S1](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S1%2043%20triples%20of%20%5Bknowledge%20field%2C%20has%20subfield%20of%2C%20knowledge%20field%5D.png)
 ↑↑↑43 triples of [knowledge field, has subfield of, knowledge field]
 
 
-![Fig. S2 278 triples of tertiary knowledge field, involves, document.png](https://s2.loli.net/2024/04/17/1luyTK7th2ALdgH.png)
+![Figure S2](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S2%20278%20triples%20of%20%5Btertiary%20knowledge%20field%2C%20involves%2C%20document%5D.png)
 ↑↑↑278 triples of [tertiary knowledge field, involves, document]
 
 
-![Fig. S3](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Fig.%20S3%201%2C375%20triples%20of%20%5Bdocument%2C%20contains%2C%20document%20content%5D.png)
+![Figure S3](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S3%201%2C375%20triples%20of%20%5Bdocument%2C%20contains%2C%20document%20content%5D.png)
 ↑↑↑1,375 triples of [document, contains, document content]
 
-# 5. Reuse of the CPM-QA test dataset
+# 5. Reuse of the CPM-QA testing set
 
-The CPM-QA test dataset containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
+The CPM-QA testing set containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
 
 
-![CPM-QA dataset in huggingface.png](https://s2.loli.net/2024/04/17/Ye6Plo219UFWHmu.png)
+![CPM-QA dataset in huggingface](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20dataset%20in%20huggingface.png)
 ↑↑↑The CPM-QA dataset in huggingface
 
 
-![The annotations of CPM questions characteristics.png](https://s2.loli.net/2024/04/17/X9lAb4PrskifeEO.png)
+![The annotations of CPM questions characteristics](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/The%20annotations%20of%20CPM%20questions%E2%80%99%20characteristics.png)
 ↑↑↑The annotations of CPM questions’ characteristics
 
 More information about the dataset can be found through this link (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM).
 
-# 6. Reuse of the codes for running LLMs with and without CPM-KG
+# 6. Reuse of the codes for running GLMs with and without CPM-KG
  
 ## 6.1 Environment set
 
@@ -122,18 +122,18 @@ beautifulsoup4==4.12.2
 
 ......
 
-Please refer to the supplementary materials for the complete requirement file.(https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Codes/Codes%20for%20large%20language%20models%20integrating%20CPM-KG/requirements.txt)
+Please refer to the supplementary materials for the complete requirement file.(https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Codes/Codes%20for%20running%20GLMs%20integrated%20with%20CPM-KG/requirements.txt)
 
-Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the screenshots). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
+Before submitting these codes to Github, all of them have been tested to be well-performed (as shown in the images). Even so, we are not able to guarantee their operation in other computing environments due to the differences in the Python version, computer operating system, and adopted hardware.
 
 ## 6.2 Codes for testing the GLMs
 
 Closed-source GLMs are API-only, while open-source GLMs over 24GB also use APIs to avoid high-end GPU costs. The open-source GLMs under 24GB are deployed directly on the AutoDL Cloud server with GTX 4090 GPUs.
 
 
-![Codes for original LLMs.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20original%20LLMs.png)
+![Codes for original GLMs](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20running%20original%20GLMs.png)
 ↑↑↑Codes for testing original GLMs
 
 
-![Codes for LLMs with CPM-KG.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20LLMs%20with%20CPM-KG.png)
+![Codes for GLMs with CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20running%20GLMs%20integrated%20with%20CPM-KG.png)
 ↑↑↑Codes for testing GLMs integrating CPM-KG
