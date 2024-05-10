@@ -96,8 +96,8 @@ else:
     CUSTOM_PROMPT_TEMPLATE = """
         Utilize the provided knowledge to find accurate answers from choices.
         Focus on the choices strictly without extra elaboration.
-        Knowledge: {retrieved knowledge}.
-        Question: {CPM-related question}.
+        Knowledge:{retrieved knowledge}.
+        Question:{CPM-related question}.
     """
     QUESTION1 = "How do agents use Task decomposition?"
     QUESTION2 = "What are the various ways to implemet memory to support it?"
