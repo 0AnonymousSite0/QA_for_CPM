@@ -77,28 +77,27 @@ is_chinese = True
 
 if is_chinese:
     CUSTOM_PROMPT_TEMPLATE = """
-        使用下面的语料来回答本模板最末尾的问题。如果你不知道问题的答案，直接回答 "我不知道"，禁止随意编造答案。
-        为了保证答案尽可能简洁，你的回答仅限于ABCDE五个字母。
-       
-
-        以下是语料：
-
-        {context}
-
-        请问：{question}
+       利用所提供的知识从选项中选出正确的答案，回答仅限于选项字母，不做额外的阐述。
+        知识:{retrieved knowledge}
+        问题:{CPM-related question}
     """
-    QUESTION1 = "单项选择题，请从A、B、C、D四个选项中选出唯一正确的答案填入括号中，回答请仅限于ABCD,不要解释。1、  下列法律文件中，属于我国法的形式的是（  ）。        A 宗教法        B 判例        C 国际条约        D 人民法院的判决书         "
-
+    QUESTION1 = """
+        单项选择题，利用所提供的知识从四个选项中选出唯一正确的答案，回答仅限于选项字母，不做额外的阐述。
+        建设项目工程总承包的项目管理工作主要在项目的（  ）。 
+        A 决策阶段、实施阶段、使用阶段        B 实施阶段        C 设计阶段、施工阶段、保修阶段        D 施工阶段
+    """
+    QUESTION2 = """
+        多项选择题，利用所提供的知识从五个选项中选出多个正确的答案，回答仅限于选项字母，不做额外的阐述。
+        根据《质量管理体系基础和术语》，质量控制是质量管理的一部分，是致力于满足质量要求的一系列相关活动。这些活动主要包括（  ）。      
+        A 设定目标    B 测量检查      C 评价分析      D 质量策划    E 纠正偏差
+    """
 else:
     WEB_URL = "https://lilianweng.github.io/posts/2023-06-23-agent/"
     CUSTOM_PROMPT_TEMPLATE = """
-        Use the following pieces of context to answer the question at the end. 
-        If you don't know the answer, just say that you don't know, don't try to make up an answer. 
-        Use three sentences maximum and keep the answer as concise as possible. 
-        Always say "thanks for asking!" at the end of the answer. 
-        {context}
-        Question: {question}
-        Helpful Answer:
+        Utilize the provided knowledge to find accurate answers from choices.
+        Focus on the choices strictly without extra elaboration.
+        Knowledge: {retrieved knowledge}.
+        Question: {CPM-related question}.
     """
     QUESTION1 = "How do agents use Task decomposition?"
     QUESTION2 = "What are the various ways to implemet memory to support it?"
