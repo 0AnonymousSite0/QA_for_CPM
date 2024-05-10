@@ -79,8 +79,8 @@ Developing the instance layer of the CPM-KG involves building the three-level ar
 The CPM-QA testing set containing 2,435 questions is manually tagged with four characteristics. The characteristics are the paper’s level and year, knowledge subfields, single- or multiple-answer questions, and questions with or without images.
 
 
-![CPM-QA dataset in huggingface](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20dataset%20in%20huggingface.png)
-↑↑↑The CPM-QA dataset in huggingface
+![CPM-QA testing set in huggingface](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/CPM-QA%20testing%20set%20in%20huggingface.png)
+↑↑↑The CPM-QA testing set in huggingface
 
 
 ![The annotations of CPM questions characteristics](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/The%20annotations%20of%20CPM%20questions%E2%80%99%20characteristics.png)
