@@ -130,7 +130,6 @@ llm_ERNIE_Bot = QianfanChatEndpoint(streaming=True, model="ERNIE-Bot",temperatur
 llm_ERNIE_Bot_turbo40 = QianfanChatEndpoint(streaming=True, model="ERNIE-Bot-4",temperature=0.01,top_p=0,penalty_score=1)
 llm_Qianfan_Chinese_Llama_2_7B = QianfanChatEndpoint(streaming=True, model="Qianfan-Chinese-Llama-2-7B")
 
-
 retriever = vectorstore_kg.as_retriever(search_type="similarity_score_threshold", search_kwargs={'score_threshold': 0.1})
 
 from langchain.chains import RetrievalQA
