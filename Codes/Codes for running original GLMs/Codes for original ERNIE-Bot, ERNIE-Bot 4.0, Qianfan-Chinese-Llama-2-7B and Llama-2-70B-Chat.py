@@ -81,10 +81,8 @@ def final_score(Question, answers_from_model, answers):
   score=0
   if "四个" in Question:
     score = score_of_single_choice(answers_from_model, answers)
-
   if "五个" in Question:
     score = score_of_multi_choice(answers_from_model, answers)
-
   return score
 
 years=["First_Level_CRCEE_2013"]
