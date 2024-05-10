@@ -78,8 +78,8 @@ is_chinese = True
 if is_chinese:
     CUSTOM_PROMPT_TEMPLATE = """
        利用所提供的知识从选项中选出正确的答案，回答仅限于选项字母，不做额外的阐述。
-        知识:{retrieved knowledge}
-        问题:{CPM-related question}
+        知识:{context}
+        问题:{question}
     """
     QUESTION1 = """
         单项选择题，利用所提供的知识从四个选项中选出唯一正确的答案，回答仅限于选项字母，不做额外的阐述。
@@ -96,8 +96,8 @@ else:
     CUSTOM_PROMPT_TEMPLATE = """
         Utilize the provided knowledge to find accurate answers from choices.
         Focus on the choices strictly without extra elaboration.
-        Knowledge:{retrieved knowledge}.
-        Question:{CPM-related question}.
+        Knowledge:{context}.
+        Question:{question}.
     """
     QUESTION1 = "How do agents use Task decomposition?"
     QUESTION2 = "What are the various ways to implemet memory to support it?"
