@@ -67,7 +67,7 @@ Developing the instance layer of the CPM-KG involves building the three-level ar
 ↑↑↑43 triples of [knowledge field, has subfield of, knowledge field]
 
 
-![Figure S2](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S2%20278%20triples%20of%20%5Btertiary%20knowledge%20field%2C%20involves%2C%20document%5D.png)
+![Figure S2](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Figure%20S2%20242%20triples%20of%20%5Btertiary%20knowledge%20field%2C%20involves%2C%20document%5D.png)
 ↑↑↑242 triples of [tertiary knowledge field, involves, document]
 
 
