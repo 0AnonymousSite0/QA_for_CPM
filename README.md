@@ -141,3 +141,6 @@ Closed-source GLMs are API-only, while open-source GLMs over 24GB also use APIs 
 
 ![Codes for GLMs with CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20running%20GLMs%20integrated%20with%20CPM-KG.png)
 ↑↑↑Codes for testing GLMs integrating CPM-KG
+
+![Codes for deploying and running CPM-QA prototype](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20deploying%20and%20running%20the%20CPM-QA%20prototype.png)
+↑↑↑Codes for deploying and running CPM-QA prototype
