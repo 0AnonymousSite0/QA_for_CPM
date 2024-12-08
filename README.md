@@ -11,6 +11,10 @@
 
 ↑↑↑Multiple GLMs with CPM-KG simultaneously answering the CPM-related questions
 
+![GIF for running video of CPM-QA prototype](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/GIF%20for%20running%20video%20of%20CPM-QA%20prototype.gif))
+
+↑↑↑Multiple GLMs with CPM-KG simultaneously answering the CPM-related questions
+
 
 # 1. General introduction of this repository
 
