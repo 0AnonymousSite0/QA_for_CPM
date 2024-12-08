@@ -149,5 +149,5 @@ Closed-source GLMs are API-only, while open-source GLMs over 24GB also use APIs 
 # 7. Details on Dmeta-embedding-zh
 We provide the main file for deploying the Dmeta-embedding-zh embedding model. More information about Dmeta-embedding-zh can be found through this link (https://huggingface.co/DMetaSoul/Dmeta-embedding-zh).
 
-![Dmeta-embedding-zh](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Details%20on%20Dmeta-embedding-zh.png))
+![Dmeta-embedding-zh](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Details%20on%20Dmeta-embedding-zh.png)
 ↑↑↑Details on Dmeta-embedding-zh
