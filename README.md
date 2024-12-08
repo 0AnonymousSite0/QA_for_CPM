@@ -60,6 +60,7 @@ The test results of different GLMs on the QA dataset for Chinese Construction Pr
 ## 4.1 Three optional versions of CPM-KG
 
 ![Three optional versions of multimodal CPM-KG](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Three%20optional%20versions%20of%20CPM-KG.png)
+↑↑↑Three optional versions of multimodal CPM-KG
 
 The CPM-KG is available through this link (https://drive.google.com/drive/folders/1-Ok_qjl5ADD8nlCSyEghupGqBz3TIk1W?usp=sharing).
 
