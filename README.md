@@ -27,8 +27,8 @@
 # 2. Summary of supplemental materials in this repository
 
 The table below shows all supplemental materials. All sheets in Tables S1, S2, S3, S4, and S5 are arranged in the order shown in this table.
-
-![supplemental materials](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials.png)([https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials.png](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials%20(continued).png)
+![supplemental materials](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials.png)
+![supplemental materials](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Inventory%20of%20supplemental%20materials%20(continued).png)
 
 All supplemental materials are provided in Github repository (https://huggingface.co/datasets/AnonymousSite/QA_dataset_for_CPM). Besides the Github repository, the CPM-QA dataset is also shared in Hugging Face repository (https://github.com/0AnonymousSite0/QA_for_CPM).
 
