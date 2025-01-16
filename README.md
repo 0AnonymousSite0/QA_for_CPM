@@ -67,7 +67,7 @@ The CPM-KG is available through this link (https://drive.google.com/drive/folder
 
 ![Codes for deploying and running CPM-QA prototype](https://github.com/0AnonymousSite0/QA_for_CPM/blob/main/Images%20for%20Readme/Codes%20for%20deploying%20and%20running%20the%20CPM-QA%20prototype.png)
 ↑↑↑Codes for deploying and running CPM-QA prototype
-Codes for deploying and running CPM-QA prototype is available through this link (https://drive.google.com/drive/folders/1PKLzYkQECgfIavpIvvlECK7mb6MYPz4M).
+Codes for deploying and running CPM-QA prototype is available through this link (https://drive.google.com/drive/folders/1PKLzYkQECgfIavpIvvlECK7mb6MYPz4M?usp=sharing).
 
 ## 4.2 Instance layer details of CPM-KG
 Developing the instance layer of the CPM-KG involves building the three-level architecture of CPM knowledge fields, collecting CPM-related documents, and processing multimodal document content with text and image data.
